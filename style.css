@@ -1,0 +1,140 @@
+/* Define o estilo para a tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Define o estilo para as células da tabela */
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Define o estilo para o cabeçalho da tabela */
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Define o estilo para as células de ação da tabela */
+td:last-child {
+  text-align: center;
+}
+
+/* Define o estilo para os botões de ação da tabela */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Define o estilo para o formulário */
+form {
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Define o estilo para o título do formulário */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Define o estilo para os campos do formulário */
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Define o estilo para o botão de submit do formulário */
+button[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img {
+  width: 750px;
+  height: 250px;
+}
+
+.bcadastroulisses {
+  display: flex;
+  align-items: center;
+}
+
+.bcadastroulisses button {
+  border: none;
+  background-color: #90ee90;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bcadastroulisses button:hover {
+  background-color: green;
+}
+
+.bcadastroulisses button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.caixatexto input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.divcaixas input:hover {
+  background-color: #eeeeee75;
+}
+
+.divcaixas input:focus-visible {
+  outline: 1px solid green;
+}
+
+#titulo {
+  font-family: sans-serif;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+#form{
+  position: relative;
+  background: #90ee90 ;
+  border-radius: 10px;
+  padding: 50px;
+  width: min-content;
+}
